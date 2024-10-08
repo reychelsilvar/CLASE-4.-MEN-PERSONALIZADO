@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Updock&display=swap');
+body{
+    background: #d65db1;
+    background-image: url(https://i.gifer.com/2iiH.gif);
+}
+
+h1{
+    color: #f9f871;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+#nombre{
+font-family: "Pacifico", cursive;
+font-size: 100px;
+
+
+}
+
+h2{
+    text-align: center;
+    font-family: monospace;
+}
+
+.flex{
+    /*FLEX POSICIONA EN FORMA DE FILA*/
+    display: flex;
+    flex-direction:row;
+    background-color: #845ec2;
+    height: 300px; 
+    justify-content:space-around;
+    /*DIMENSIONA EL TAMAÑP DE ACUERDO AL CONTENEDOR*/
+    align-items: center;
+    /*PERMITE QUE NO CAMBIE EL ESPACIO QUE ESTAS DANDO*/
+    /* flex-wrap: wrap; */ 
+    padding-bottom: 200px;
+  
+
+}
+
+.bebidas1{
+    background-color: #ffc75f;
+    height:200px;
+    width: 220px;
+    border: 2px solid #845ec2;
+    font-family: fantasy;
+    padding-bottom: 200px;
+    
+  
+} 
+.bebidas2{
+    background-color: #ffc75f;
+    height:300px;
+    width: 220px;
+    border: 2px solid #845ec2;
+    font-family: fantasy;
+    /* se utilizara en dado caso que eliga la dirección de columna*/
+    padding-bottom: 100px;
+   
+} 
+.bebidas3{
+    background-color: #ffc75f;
+    height:200px;
+    width: 220px;
+    border: 2px solid #845ec2;
+    font-family: fantasy;
+    padding-bottom: 200px;
+} 
+img{
+    height:200px;
+    width: 220px;
+}
+
+
+
+
+    
